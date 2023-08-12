@@ -24,19 +24,15 @@
 
         function defineQuienGana(jugador, maquina) {
             if (jugador == maquina) {
-                alert("Empate")
-            } else if (jugador == 1 && maquina == 2) {
-                alert("Gana la máquina, inténtalo de nuevo")
-            } else if (jugador == 1 && maquina == 3) {
-                alert("Ganaste, felicidades!")
-            } else if (jugador == 2 && maquina == 3) {
-                alert("Ganaste, felicidades!")
-            } else if (jugador == 2 && maquina == 1) {
-                alert("Ganaste, felicidades!")
-            } else if (jugador == 3 && maquina == 1) {
-                alert("Gana la máquina, inténtalo de nuevo")
-            } else if (jugador == 3 && maquina == 2) {
-                alert("Ganaste, felicidades!")
+                alert("Empate");
+            } else if (jugador == 1 & maquina == 3){
+                alert("Gana el jugador");
+            } else if (jugador == 2 & maquina == 1){
+                alert("Gana el jugador");
+            } else if (jugador == 3 & maquina == 2){
+                alert("Gana el jugador");
+            } else {
+                alert("Gana la máquina")
             }
         };
 
